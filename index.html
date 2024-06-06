@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+</head>
+<body>
+    <ul id="userList">
+        <li class="li-item">Moore Hensley</li>
+        <li class="li-item">Sharlene Bush</li>
+        <li class="li-item">Ross Vazquez</li>
+        <li class="li-item">Elma Head</li>
+        <li class="li-item">Carey Barr</li>
+    </ul>
+
+    <script>
+        const Users = document.getElementsByClassName('li-item');
+
+        for (let user of Users) {
+            user.addEventListener('click', () => {
+                alert(user.innerHTML);
+            });
+        }
+    </script>
+</body>
+</html>
