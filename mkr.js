@@ -109,3 +109,17 @@ console.log(getUniqueSkills(users));
 console.log(getTotalBalance(users));
 
 //Task 3
+//The spread and rest operators are both represented by three dots (...) in JavaScript, but they serve different purposes.
+//Spread Operator:
+//Expands an iterable (like an array) into individual elements.
+//Example:
+//const numbers = [1, 2, 3];
+//const newNumbers = [...numbers, 4, 5];
+//console.log(newNumbers);
+//Rest Operator:
+//Collects multiple elements into a single array or object.
+//Example:
+//function sum(...args) {
+//    return args.reduce((acc, curr) => acc + curr, 0);
+//}
+//console.log(sum(1, 2, 3)); 
